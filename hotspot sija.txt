@@ -1,0 +1,13 @@
+konfigurasi hotspot
+1. interfaces -> beri nama masing-masing ether
+2. ip -> DHCP Client
+3. ip -> DNS (8.8.8.8/8.8.4.4 - 1.1.1.1/1.0.0.1)
+4. ip -> Firewall -> NAT 
+5. ip -> Addresses + ether 2 & ether 3 
+6. ip -> DHCP SERVER -> Setup -> eth2(laptop) 
+7. Reboot
+8. system -> SNTP Client indoo
+9. hotspot -> setup -> eth3 chap pap mac cookie
+10. hotspot -> user profile shared user 1, limit bebas
+
+
